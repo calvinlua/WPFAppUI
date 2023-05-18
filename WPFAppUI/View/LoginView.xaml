@@ -10,7 +10,7 @@
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
         Background="Transparent"
-        AllowsTransparency="False"
+        AllowsTransparency="True"
         MouseDown="Window_MouseDown">
    <!--body-->
            <Border CornerRadius="50">
@@ -18,7 +18,7 @@
                  <Border.Background>
                     <ImageBrush ImageSource="/images/86.png"
                                         Stretch="Uniform"
-                                        Opacity="0.7"/>
+                                        />
                 </Border.Background>
         
                 <Border CornerRadius="12"
@@ -34,9 +34,9 @@
            
                     <Border.Background>
                     <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                        <GradientStop Color="#462AD8" Offset="0"/>
-                        <GradientStop Color="#DA34AE" Offset="0.75"/>
-                        <GradientStop Color="#9A16C1" Offset="1"/>
+                        <GradientStop Color="White" Offset="0.1"/>
+                        <GradientStop Color="Black" Offset="0.3"/>
+                        <GradientStop Color="DarkBlue" Offset="1"/>
                     </LinearGradientBrush>
                     </Border.Background>
 
